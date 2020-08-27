@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="380dp"
+        android:layout_height="711dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="238dp"
+            android:layout_height="208dp"
+            android:layout_marginTop="-200dp"
+            android:layout_marginBottom="30dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/login_icon" />
+
+        <ProgressBar
+            android:id="@+id/login_progress"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:foregroundGravity="center"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/email_sign_in_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_sixteen"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_eighteen"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

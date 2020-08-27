@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="257dp"
+        android:layout_height="343dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/login_icon" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:text="@string/music_playlist"
+        tools:ignore="RelativeOverlap" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="500dp"
+        android:ems="17"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:autofillHints=""
+        tools:ignore="LabelFor,RelativeOverlap" />
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/play"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="45dp"
+        android:text="Pause"
+        tools:ignore="HardcodedText,UnknownId" />
+
+    <Button
+        android:id="@+id/play1"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/play"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="550dp"
+        android:text="Play"
+        tools:ignore="HardcodedText,UnknownId" />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pause"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="16dp"
+        android:text="Stop"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>

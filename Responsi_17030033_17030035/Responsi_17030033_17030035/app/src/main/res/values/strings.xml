@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Responsi_17030033_17030035</string>
+    <string name="todo">TODO</string>
+    <string name="responsi_17030033_amp_17030035"><![CDATA[Responsi 17030033 & 17030035]]></string>
+    <string name="login_menu">Login Menu</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="login_menu_">LOGIN MENU</string>
+
+    <string name="app_name">LoginRegisterScreenDesign</string>
+    <string name="create_account"><font color="#00ff00">text</font></string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="todo">TODO</string>
+    <string name="string_email" />
+    <string name="string_password" />
+    <string name="string_sign_in" />
+    <string name="remember_me">Remember Me</string>
+    <string name="email">Email</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="todo">TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="default_web_client_id" />
+    <string name="todo">TODO</string>
+    <string name="music_playlist">Music Playlist</string>
+    <string name="the_beatles_ob_la_di_ob_la_da">The Beatles - Ob la di Ob la da</string>
+    <string name="music_popular">Music Popular</string>
+    <string name="_6_3rb">6,3rb</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="_5_0">5.0</string>
+</resources>
